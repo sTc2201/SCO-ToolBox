@@ -52,16 +52,19 @@ namespace SCOToolBox
                 }
             }
 
-            string upd = checkUpdates();
+            /*string upd = checkUpdates();
             if ((upd != "OK") && (upd != "ERR")){
                 if (MessageBox.Show("A new version of SCO ToolBox (v" + upd + ") is available.\nThis update may fix bugs and may contain new features.\n\nDo you want to go to the topic on GTAForums.com to view and download the new version?", "Notification", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == System.Windows.Forms.DialogResult.Yes){
                     Process.Start("http://www.gtaforums.com/index.php?showtopic=481229");
                 }
             } else if (upd == "ERR"){
                 MessageBox.Show("An error occured while checking for updates.\nPlease try again or check for updates manually.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-            }
+            }*/
         }
 
+        /*
+         * Non-functional, download URL doesn't exist anymore.
+         *
         public string checkUpdates()
         {
             try{
@@ -70,7 +73,7 @@ namespace SCOToolBox
                 Version vlat = new Version(clnt.DownloadString(System.Text.Encoding.UTF8.GetString(Convert.FromBase64String("aHR0cDovL3d3dy5mbGl0c2tpa2tlci5jb20vc29mdHdhcmUvc2NvdG9vbGJveC92ZXJzaW9uLnR4dA=="))));
                 if (vlat > vcur) return vlat.ToString(4); else return "OK"; 
             }catch{ return "ERR"; }
-        }
+        }*/
 
         private void buttonOpen_Click(object sender, EventArgs e)
         {

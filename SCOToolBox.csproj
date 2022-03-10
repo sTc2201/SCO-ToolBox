@@ -37,7 +37,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Puzzle.SyntaxBox.NET3.5">
-      <HintPath>..\WindowsFormsApplication5\Puzzle.SyntaxBox.NET3.5.dll</HintPath>
+      <HintPath>.\Puzzle.SyntaxBox.NET3.5.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />

@@ -62,29 +62,32 @@ namespace SCOToolBox
 
             try {
                 uint[] searchOffsets = {
-                                       //EFIGS EXEs
-                                       0xA94204 /* 1.0 */, 
-                                       0xB607C4 /* 1.0.1 */, 
-                                       0xB56BC4 /* 1.0.2 */,
-                                       0xB75C9C /* 1.0.3 */,
-                                       0xB7AEF4 /* 1.0.4 */,
-                                        0xBE1370 /* 1.0.4r2 */,
-                                        0xBE6540 /* 1.0.6 */,
-                                       0xBE7540 /* 1.0.7 */,
-                                       //Russian EXEs
-                                       0xB5B65C /* 1.0.0.1 */,
-                                       0xB569F4 /* 1.0.1.1 */,
-                                       0xB76CB4 /* 1.0.2.1 */,
-                                       0xB7AEFC /* 1.0.3.1 */,
-                                       //Japan EXEs
-                                        0xB8813C /* 1.0.1.2 */,
-                                        0xB8C38C /* 1.0.2.2 */,
-                                     0xBE6510 /* 1.0.5.2 */,
-                                     //EFLC
-                                       0xBEF028 /* 1.1.2 */,
-                                       0xC705E0 /* 1.1.1 */,
-                                       0xC6DEEC /* 1.1.0 */,
-                                   };
+                    //EFIGS EXEs
+                    0xA94204, /* 1.0.0.0 */ 
+                    0xB607C4, /* 1.0.1.0 */ 
+                    0xB56BC4, /* 1.0.2.0 */
+                    0xB75C9C, /* 1.0.3.0 */
+                    0xB7AEF4, /* 1.0.4.0 */
+                    0xBE1370, /* 1.0.4.0r2 */
+                    0xBE6540, /* 1.0.6.0 */
+                    0xBE7540, /* 1.0.7.0 */
+                    0xC95FD8, /* 1.0.8.0, same fore RUS/JPN EXEs */
+                    //Russian EXEs
+                    0xB5B65C, /* 1.0.0.1 */
+                    0xB569F4, /* 1.0.1.1 */
+                    0xB76CB4, /* 1.0.2.1 */
+                    0xB7AEFC, /* 1.0.3.1 */
+                    //Japan EXEs
+                    0xB8813C, /* 1.0.1.2 */
+                    0xB8C38C, /* 1.0.2.2 */
+                    0xBE6510, /* 1.0.5.2 */
+                    //EFLC
+                    0xC6DEEC, /* 1.1.0.0 */
+                    0xC705E0, /* 1.1.1.0 */
+                    0xBEF028, /* 1.1.2.0 */
+                    0xB82A28  /* 1.1.3.0 */
+                    
+                };
                 const string validHash = "DEA375EF1E6EF2223A1221C2C575C47BF17EFA5E";
                 byte[] key = null;
 
