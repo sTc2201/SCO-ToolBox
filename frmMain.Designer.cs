@@ -532,7 +532,7 @@
             this.radioButtonNew.Name = "radioButtonNew";
             this.radioButtonNew.Size = new System.Drawing.Size(143, 18);
             this.radioButtonNew.TabIndex = 28;
-            this.radioButtonNew.Text = "New (1.0.7.0)";
+            this.radioButtonNew.Text = "New (1.0.7.0+)";
             this.radioButtonNew.UseVisualStyleBackColor = true;
             // 
             // label11

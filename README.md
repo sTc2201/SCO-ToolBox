@@ -22,10 +22,6 @@ Notes
 
 Please keep in mind the following notes before using SCO ToolBox:
 
-- IV or EFLC should either be installed or be in the same directory as the tool. This is required for reading the AES cypher key for encrypting and decrypting the SCO files. It is legally not allowed to distribute this key with the program itself.
-
-- The program will check for updates at startup, so don't let your firewall block it.
-
 - This is not Sanny Builder! SCO ToolBox only offers low level coding. It is certainly a bit harder, but after screwing around with it a while, you can create simple things such as spawning a car. But it works!
 
 - I didn't do high level editing because that's harder to do and the Russians are probably working on their editor, so it would be lost time and effort. However, if you want to give it a try, ask me the source.
@@ -34,11 +30,11 @@ Please keep in mind the following notes before using SCO ToolBox:
 
 - Make sure you save your script as Encoded to make it work in the game.
 
-- The program should now be able to compile for IV 1.0.7.0 and EFLC. However, I am not sure that all the native hashes are correct.
+- The program should now be able to compile for IV 1.0.7.0+ and EFLC. However, I am not sure that all the native hashes are correct.
 
 - So, check the natives mode when you load and save files. Otherwise, the natives will be respectively displayed as hex values or compiled incorrectly.
 
-- Hover your mouse over the auto complete function list to see if you shoud, and, if yes, what parameters you should add to a function. You can open existing SCO files or check out the GTAModding wiki to get a general view of how things work.
+- Hover your mouse over the auto complete function list to see if you should, and, if yes, what parameters you should add to a function. You can open existing SCO files or check out the GTAModding wiki to get a general view of how things work.
 
 - Because this is actually more like a beta version, the tool may decompile and display things incorrectly. However, it will get compiled in the same (incorrect) way. I've decompiled and recompiled the full main.sco successfully. There were no binary differences (except float values).
 
@@ -59,6 +55,15 @@ http://www.gtaforums.com/index.php?showtopic=481229
 
 Change log
 ----------
+
+v1.2.7.2:
+- Removed the requirement for a GTAIV or EFLC exe to launch the tool.
+- Updated and added missing native hashes for 1.0.7.0+.
+- Set default natives mode to 1.0.7.0+.
+
+v1.2.7.1:
+- 1.0.8.0/1.1.3.0 EXE (EFIGS/RUS/JPN) offsets for the AES key added. It will now detect them as valid EXEs.
+- Update checker removed, download URL does not exist anymore and thus will throw an error everytime on launch/re-launch.
 
 v1.2.7:
 - Added 1.0.7.0 natives (Thanks OinkOink and sjaak327).

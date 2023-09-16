@@ -820,7 +820,7 @@
             this.toolStripComboBoxNatType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.toolStripComboBoxNatType.Items.AddRange(new object[] {
             "Old (1.0.4.0)",
-            "New (1.0.7.0)"});
+            "New (1.0.7.0+)"});
             this.toolStripComboBoxNatType.Name = "toolStripComboBoxNatType";
             this.toolStripComboBoxNatType.Size = new System.Drawing.Size(95, 25);
             this.toolStripComboBoxNatType.ToolTipText = "Natives Mode";
