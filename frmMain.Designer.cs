@@ -514,7 +514,6 @@
             // radioButtonOld
             // 
             this.radioButtonOld.AutoEllipsis = true;
-            this.radioButtonOld.Checked = true;
             this.radioButtonOld.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.radioButtonOld.Location = new System.Drawing.Point(3, 3);
             this.radioButtonOld.Name = "radioButtonOld";
@@ -527,6 +526,7 @@
             // radioButtonNew
             // 
             this.radioButtonNew.AutoEllipsis = true;
+            this.radioButtonNew.Checked = true;
             this.radioButtonNew.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.radioButtonNew.Location = new System.Drawing.Point(3, 22);
             this.radioButtonNew.Name = "radioButtonNew";
