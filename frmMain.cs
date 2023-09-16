@@ -29,13 +29,13 @@ namespace SCOToolBox
             
             backgroundWorkerAll.RunWorkerCompleted += new RunWorkerCompletedEventHandler(fileDone);
 
-            byte[] aes = AES.GetKey();
-            if (aes == null) {
-                MessageBox.Show("Could not find IV or EFLC installed to get the AES key from for reading SCO files.\nPlease install IV or ELFC or place its EXE in the current directory.\n\nThe program will now quit.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                Application.Exit();
-            }else{
-                SCO.AESKey = aes;
-            }
+            // byte[] aes = AES.GetKey();
+            // if (aes == null) {
+            //     MessageBox.Show("Could not find IV or EFLC installed to get the AES key from for reading SCO files.\nPlease install IV or ELFC or place its EXE in the current directory.\n\nThe program will now quit.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            //     Application.Exit();
+            // }else{
+            //     SCO.AESKey = aes;
+            // }
 
             if (File.Exists(Application.StartupPath + "\\Puzzle.SyntaxBox.NET3.5.dll") == false){
                 MessageBox.Show("The Code Editor cannot be used because the file \"Puzzle.SyntaxBox.NET3.5.dll\" is missing in the current folder.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);

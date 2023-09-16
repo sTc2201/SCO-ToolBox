@@ -13,7 +13,7 @@ namespace SCOToolBox
     {
         private static FileStream sco;
         public static Dictionary<string, string> offsets = new Dictionary<string, string>();        
-        public static byte[] AESKey = null;
+        public static byte[] AESKey = {26, 181, 111, 237, 126, 195, 255, 1, 34, 123, 105, 21, 51, 151, 93, 206, 71, 215, 105, 101, 63, 247, 117, 66, 106, 150, 205, 109, 83, 7, 86, 93};
 
         public static bool isEncrypted = false;
 
