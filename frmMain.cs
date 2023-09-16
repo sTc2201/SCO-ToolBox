@@ -159,7 +159,7 @@ namespace SCOToolBox
                 labelSignature.Text = sResult;
             }
 
-            if (sResult.Contains("GTA IV") == false) { radioButtonNew.Checked = true; } else { radioButtonOld.Checked = true; }
+            //if (sResult.Contains("GTA IV") == false) { radioButtonNew.Checked = true; } else { radioButtonOld.Checked = true; }
 
             if(SCO.isEncrypted == true){
                 sResult = SCO.getCodeSectionDec();
