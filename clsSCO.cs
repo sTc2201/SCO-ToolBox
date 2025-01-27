@@ -39,7 +39,7 @@ namespace SCOToolBox
         public static int codeCounter = 1;
         private static int tabCounter = 0;
 
-        public static string nattype = "Old";
+        public static string nattype = "New";
 
         public static long progress = 0;
         public static long progressOf = 0;

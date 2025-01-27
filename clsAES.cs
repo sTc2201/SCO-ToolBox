@@ -42,8 +42,7 @@ namespace SCOToolBox
                     dir = key.GetValue(ValueName).ToString();
                     exe = "GTAIV.exe";
                 }
-
-                if ((key = Registry.LocalMachine.OpenSubKey(Key32E)) != null ||
+                else if ((key = Registry.LocalMachine.OpenSubKey(Key32E)) != null ||
                     (key = Registry.LocalMachine.OpenSubKey(Key64E)) != null)
                 {
                     dir = key.GetValue(ValueName).ToString();
@@ -72,6 +71,7 @@ namespace SCOToolBox
                     0xBE6540, /* 1.0.6.0 */
                     0xBE7540, /* 1.0.7.0 */
                     0xC95FD8, /* 1.0.8.0, same fore RUS/JPN EXEs */
+                    0xC5B73C, /* 1.2.0.59, Steam/CE (Complete Edition) */
                     //Russian EXEs
                     0xB5B65C, /* 1.0.0.1 */
                     0xB569F4, /* 1.0.1.1 */
